@@ -462,12 +462,10 @@ header
 
 .header-area .main-nav .logo {
   float: left;
-  margin-top: 37px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  margin-left: 30px;
 }
 
 .header-area .main-nav .logo img {
@@ -615,7 +613,6 @@ header
 }
 
 .header-area.header-sticky .logo {
-  margin-top: 25px;
 }
 
 .header-area.header-sticky .nav {
@@ -651,8 +648,6 @@ header
     padding: 0px;
   }
   .header-area .logo {
-    margin-top: 27px !important;
-    margin-left: 30px;
   }
   .header-area .menu-trigger {
     display: block !important;
