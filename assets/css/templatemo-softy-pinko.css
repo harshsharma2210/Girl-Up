@@ -811,11 +811,12 @@ welcome
 features
 --------------------------------------------- 
 */
+
 .features-small-item {
   cursor: pointer;
   display: block;
-  background: #ffffff;
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
+  background: #FFFFFF;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
@@ -838,8 +839,8 @@ features
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
   line-height: 90px;
   margin: auto;
   position: relative;
@@ -895,6 +896,7 @@ features
     margin-top: 0px;
   }
 }
+
 
 /* 
 ---------------------------------------------
@@ -1171,6 +1173,7 @@ parallax & home seperator
 team
 --------------------------------------------- 
 */
+
 .team-item {
   background: #fff;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
@@ -1178,6 +1181,7 @@ team
   position: relative;
   margin-bottom: 30px;
   padding-bottom: 25px;
+ 
 }
 
 .team-item:hover .team-content .team-info {
