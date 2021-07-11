@@ -141,7 +141,7 @@ hgroup {
 
 html,
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "DM Sans", sans-serif;
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
@@ -176,7 +176,7 @@ global styles
 html,
 body {
   background: #fff;
-  font-family: "Raleway", sans-serif;
+  font-family: "DM Sans", sans-serif;
 }
 
 ::selection {
@@ -710,7 +710,7 @@ welcome
       rgba(238, 97, 134, 0.8),
       rgba(130, 97, 238, 0.8)
     ),
-    url(../images/header.jpg);
+    url(../images/Header.jpg);
 }
 
 .welcome-area .header-text {
@@ -723,7 +723,7 @@ welcome
 
 .welcome-area .header-text h1 {
   font-weight: 500;
-  font-size: 36px;
+  font-size: 50px;
   line-height: 54px;
   letter-spacing: 1.4px;
   margin-bottom: 30px;
@@ -815,8 +815,8 @@ features
 .features-small-item {
   cursor: pointer;
   display: block;
-  background: #FFFFFF;
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
+  background: #ffffff;
+  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
@@ -896,7 +896,6 @@ features
     margin-top: 0px;
   }
 }
-
 
 /* 
 ---------------------------------------------
@@ -1181,7 +1180,6 @@ team
   position: relative;
   margin-bottom: 30px;
   padding-bottom: 25px;
- 
 }
 
 .team-item:hover .team-content .team-info {
