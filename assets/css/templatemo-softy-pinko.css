@@ -1648,51 +1648,85 @@ preloader
     opacity: 0;
   }
 }
-.sticky-container {
-  padding: 0px;
-  margin: 0px;
+
+#navigation {
+  z-index: 99999;
   position: fixed;
-  right: -130px;
-  top: 230px;
-  width: 170px;
-  z-index: 1100;
+  width: 60px;
+  margin-top: 150px;
+  transition: all 0.3s linear;
+  box-shadow: 2px 2px 8px 0px rgba(0, 0, 0, 0.4);
 }
-.sticky li {
-  list-style-type: none;
-  background-color: #fff;
-  color: #efefef;
-  height: 43px;
-  padding: 0px;
-  margin: 0px 0px 1px 0px;
-  -webkit-transition: all 0.25s ease-in-out;
-  -moz-transition: all 0.25s ease-in-out;
-  -o-transition: all 0.25s ease-in-out;
-  transition: all 0.25s ease-in-out;
-  cursor: pointer;
+
+#navigation ul {
+  margin-top: 0;
+  margin-bottom: 0rem;
 }
-.sticky li:hover {
-  margin-left: -115px;
+
+#navigation li {
+  height: 45px;
+  position: relative;
 }
-.sticky li img {
-  float: left;
-  margin: 5px 4px;
-  margin-right: 5px;
+
+#navigation li a {
+  color: #fff !important;
+  display: block;
+  height: 100%;
+  width: 100%;
+  line-height: 45px;
+  padding-left: 25%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  transition: all 0.3s linear;
+  text-decoration: none !important;
 }
-.sticky li p {
-  padding-top: 5px;
-  margin: 0px;
-  line-height: 16px;
-  font-size: 11px;
+
+#navigation li:nth-child(1) a {
+  background: #4267b2;
 }
-.sticky li p a {
-  text-decoration: none;
-  color: #2c3539;
+
+#navigation li:nth-child(2) a {
+  background: #1da1f2;
 }
-.sticky li p a:hover {
-  text-decoration: underline;
+
+#navigation li:nth-child(3) a {
+  background: #e1306c;
 }
-@media (min-width: 800px) and (max-width: 850px) {
-  .navbar:not(.top-nav-collapse) {
-    background: #1c2331 !important;
-  }
+
+#navigation li:nth-child(4) a {
+  background: #2867b2;
+}
+
+#navigation li:nth-child(5) a {
+  background: #333;
+}
+
+#navigation li:nth-child(6) a {
+  background: #ff0000;
+}
+
+#navigation li a i {
+  position: absolute;
+  top: 14px;
+  left: 24px;
+  font-size: 15px;
+}
+
+#navigation ul li a span {
+  display: none;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#navigation a:hover {
+  z-index: 1;
+  width: 200px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+#navigation ul li:hover a span {
+  padding-left: 30%;
+  display: block;
+  font-size: 15px;
 }
