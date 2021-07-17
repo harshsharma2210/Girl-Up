@@ -87,7 +87,6 @@
 }
 .d-none {
   display: block !important;
-  font-size:20px !important;
 }
 h3 {
   text-align: center;
@@ -176,19 +175,5 @@ h3 {
 @media screen and (max-width: 768px) {
   #navigation {
     display: none;
-  }
-}
-.event-img{
-  height:700px !important;
-  width:600px !important;
-}
-@media screen and (max-width: 768px){
-  .event-img{
-    height:300px !important;
-    width:300px !important;
-  }
-  .d-none {
-    display: block !important;
-    font-size:10px !important;
   }
 }
