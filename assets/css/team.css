@@ -53,7 +53,7 @@
 }
 
 .team .member .social a:hover {
-  color: #fff;
+  color: #ee6186;
 }
 
 .team .member .social i {
@@ -88,12 +88,13 @@
 
 .team .member:hover {
   transform: scale(1.08);
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+  box-shadow: 0px 0 30px #a759d1;
 }
 
 .team .member:hover .social {
   right: 8px;
   opacity: 1;
+  color: #ee6186;
 }
 .img-fluid {
   height: 280px;
@@ -132,7 +133,7 @@
 }
 .about .img-fluid {
   width: 380px;
-  height: 420px;
+  height: 500px;
 }
 .item-box-blog-heading h3 {
   margin-top: 10px;
@@ -143,4 +144,23 @@
   margin-bottom: 5px;
   font-size: 30px;
   color: #a759d1;
+}
+.core123:hover {
+  color: blueviolet !important;
+}
+.founder {
+  font-family: italic !important;
+  font-size: 20px !important;
+}
+.founder-font {
+  font-family: "Noto Sans", sans-serif !important;
+  color: #222 !important;
+}
+a.designer {
+  color: #fff;
+  text-decoration: underline !important;
+  font-weight: bold;
+}
+.designer:hover {
+  color: #ee6186;
 }

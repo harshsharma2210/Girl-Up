@@ -181,6 +181,7 @@ body {
 
 .custom-font {
   font-family: "DM Sans", sans-serif !important;
+  font-size: 30px !important;
 }
 
 ::selection {
@@ -1195,7 +1196,7 @@ team
   margin-left: 25px;
   margin-top: 25px;
   font-size: 30px;
-  color: #4e47de;
+
   text-align: center;
 }
 
@@ -1745,9 +1746,7 @@ preloader
   display: inline-block;
   margin-left: -4px;
 }
-.col-md-3 img {
-  height: auto;
-}
+
 body .carousel-indicators li {
   background-color: #8261ee;
 }
