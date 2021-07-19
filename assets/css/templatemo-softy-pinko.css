@@ -825,7 +825,7 @@ features
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
-  padding: 30px;
+  padding: 0px;
   text-align: center;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -835,7 +835,7 @@ features
   margin-bottom: 30px;
 }
 
-.features-small-item:hover .icon {
+/* .features-small-item:hover .icon {
   background-color: #ff589e;
 }
 
@@ -859,7 +859,7 @@ features
 .features-small-item .icon i {
   font-size: 18px;
   color: #fff;
-}
+} */
 
 .features-small-item .features-title {
   font-weight: 500;
@@ -869,6 +869,7 @@ features
   margin-bottom: 15px;
   position: relative;
   z-index: 2;
+  margin-top: 5px;
 }
 
 .features-small-item p {
