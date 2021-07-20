@@ -182,6 +182,7 @@ body {
 .custom-font {
   font-family: "DM Sans", sans-serif !important;
   font-size: 30px !important;
+  font-weight: bold !important;
 }
 
 ::selection {
